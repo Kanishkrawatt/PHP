@@ -6,7 +6,7 @@ Php Constants are name or identifier which cannot be modified Throughout the exe
 
 Php constants can be defined by 2 ways:
 * Using [define](https://github.com/Kanishkrawatt/Php/blob/main/Constant/UsingDefineFunction.md) function
-* Using [Const]() keyword
+* Using [Const](https://github.com/Kanishkrawatt/Php/blob/main/Constant/UsingConstKeyword.md) keyword
 
 ## Difference Between Constants and Variable
 
