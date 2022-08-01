@@ -11,6 +11,7 @@ Php constants can be defined by 2 ways:
 ## Difference Between Constants and Variable
 
 |       PHP Costants        |       PHP Variables     |
+|--------------------------:|------------------------:|
 | No Need To use $          | $ sign is used          |
 | DataType Can't be Changed | DataType can be Changed |
 | Can't be Redefined        | Can be Redefined        |
