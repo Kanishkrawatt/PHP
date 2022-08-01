@@ -112,15 +112,40 @@ The scope of a variable is defined as its range in the program under which it ca
 * [Static variable]()
 
 
-## Mail function
+## [Mail function]()
 
 PHP makes use of mail() To send an email.
 ``` Syntax
 mail(to,subject,message,header,parameters);
 ```
 
-## State Management
+## [State Management]()
 HTTP is a stateless protocol which means every user request is processed before it . Hence there is no way to store or send any user specific details using HTTP protocol.
 
 PHP allows us to save certain states of the application either on the server itself, or in the user's browser . In form of [Session]() and [Cookies]()
+
+## [File Handling]()
+
+File Handling is an important part of web application. We often need to open and process a file for different tasks.
+PHP has several functions for [creating]() , [reading]() , [uploading] , and [editing]() files
+Ex - [fopen()]() , [fwrite()]() , [fclose()]()
+
+#### [PHP Inclusion]() 
+We can include the content of a PHP file into another PHP file before the server executes it . There are two PHP function which can be used to include one PHP file into another File.
+* The [Include()]() function 
+* The [Require()]() function
+
+## [Object Oriented Programming (OOPS)]() 
+Procedural programming is about writing procedures or functions that perform operations on the data , while object-oriented programming is about creating objects that contain both data and functions.
+
+Object oriented programming had several advantages over procedural programming
+* It is Faster 
+* It provides a Clear Structure for the Programs
+* It helps to Keep the PHP code "DRY: Don't  Repeat Yourself", and makes the code easier to maintain , modify and debug
+* It ensures that the created code is fully reusable with less code and shorter time
+
+
+
+
+
 
