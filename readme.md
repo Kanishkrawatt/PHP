@@ -9,7 +9,7 @@ Php constants can be defined by 2 ways:
 * Using [Const]() keyword
 
 ## Difference Between Constants and Variable
-``` Difference between PHP constants and PHP variable
+
 |       PHP Costants        |       PHP Variables     |
 |---------------------------|:-----------------------:|
 | No Need To use $          | $ sign is used          |
@@ -20,7 +20,6 @@ Php constants can be defined by 2 ways:
 |---------------------------|:-----------------------:|
 
 
-```
 
 ## PHP comments
 
