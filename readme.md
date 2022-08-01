@@ -83,3 +83,44 @@ A regular Expression is a string that represents a pattern.
 * [Splitting]()
 
 
+## [Super Global Variables]()
+Some predefined Variables in PHP are "SuperGlobals",which means that they are always accessible , regardless of scope and you can access them from any function , class or file without  having to do anything special.
+
+ex - [\$GLOBALS]() , [\$_GET]() , [\$_POST]()
+
+
+## [Function]() 
+A function is a piece of code in a larger program .  The function performs a specific task
+
+#### Advantages 
+* Reducing duplication of code 
+* Decomposing complex problems into simpler pieces
+* Imporving clarity of the code
+* Reuse of code
+
+#### Types of Functions
+* [Built-in Functions]()
+* [User Defined Functions]()
+
+## Variable Scope
+The scope of a variable is defined as its range in the program under which it can be accessed. In other words,
+"The scope of a variable is the portion of the program within which it is defined and can be accessed."
+
+#### Types of variable scope
+* [Local Variable]()
+* [Global Variable]()
+* [Static variable]()
+
+
+## Mail function
+
+PHP makes use of mail() To send an email.
+``` Syntax
+mail(to,subject,message,header,parameters);
+```
+
+## State Management
+HTTP is a stateless protocol which means every user request is processed before it . Hence there is no way to store or send any user specific details using HTTP protocol.
+
+PHP allows us to save certain states of the application either on the server itself, or in the user's browser . In form of [Session]() and [Cookies]()
+
