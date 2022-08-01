@@ -29,19 +29,16 @@ There Are two type of Comments in PHP
 
 ``` Single-Line
 <?php
-<span style="color: green">
     // This is Single-line comment
     # Is is also a Single-line comment
-</span>
 ?>
 ```
 
 ``` Multi-Line
 <?php 
-<span style="color: green">
 /* This is a Multi-line Comment
 that can comment multiple 
-Lines */  </span>
+Lines */ 
 ?>
 ```
 ## PHP Operators
